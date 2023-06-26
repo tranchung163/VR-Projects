@@ -722,6 +722,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteralA37311D1BC261010503FF2B710068EE0942C2D41
 IL2CPP_EXTERN_C String_t* _stringLiteralC31E66F919D06AD2730738EF7F884271E99BB7DA;
 IL2CPP_EXTERN_C String_t* _stringLiteralC7AA770297A7E9F8775DFAC450F3081F20D11B5F;
 IL2CPP_EXTERN_C String_t* _stringLiteralF009B78A50F1102B3DC74DA0FAECC613AA75E457;
+IL2CPP_EXTERN_C String_t* _stringLiteralF375EB79A8ACB869A5BBA1C61C3DD50F7C3FD466;
 IL2CPP_EXTERN_C const RuntimeMethod* BaseTeleportationInteractable_OnActivated_m3519F32AD8EF48DEA2DC762AA0203AC2CA2BF9E7_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* BaseTeleportationInteractable_OnDeactivated_mCC3F748F7269D8A30EED80532E054CF274283D4E_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* BaseTeleportationInteractable_OnSelectEntered_m0FD58F8C469202E81555C08B4362E2D23B620676_RuntimeMethod_var;
@@ -6648,12 +6649,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ThrowBall_moveBallToFirst_m823D941C04EF8
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisRigidbody_t268697F5A994213ED97393309870968BC1C7393C_m2D7F86C77ECF9B82AAC077B511F1004280571B90_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisTransform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1_m16304651E2FA050A95BC62AAB3A9D7C9D3A08728_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral1A3BE0DFCDE1C11D947AA7A52490A46377A70933);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF375EB79A8ACB869A5BBA1C61C3DD50F7C3FD466);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		// rightHand = GameObject.Find("mixamorig:RightHandIndex1").transform;
+		// rightHand = GameObject.Find("mixamorig:RightHandThumb1").transform;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0;
-		L_0 = GameObject_Find_mFF1D6C65A7E2CD82443F4DCE4C53472FB30B7F51(_stringLiteral1A3BE0DFCDE1C11D947AA7A52490A46377A70933, NULL);
+		L_0 = GameObject_Find_mFF1D6C65A7E2CD82443F4DCE4C53472FB30B7F51(_stringLiteralF375EB79A8ACB869A5BBA1C61C3DD50F7C3FD466, NULL);
 		NullCheck(L_0);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1;
 		L_1 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_0, NULL);
@@ -6705,10 +6707,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ThrowBall__ctor_mB58AFD38513E8AA17A7A900
 	{
 		// public float throwForce = 10f;
 		__this->___throwForce_6 = (10.0f);
-		// private Vector3 aVector = new Vector3(0f, -0.02f, 0.06f);
+		// private Vector3 aVector = new Vector3(0f, -0.03f, 0.04f);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0;
 		memset((&L_0), 0, sizeof(L_0));
-		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_0), (0.0f), (-0.0199999996f), (0.0599999987f), /*hidden argument*/NULL);
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_0), (0.0f), (-0.0299999993f), (0.0399999991f), /*hidden argument*/NULL);
 		__this->___aVector_9 = L_0;
 		// public Vector3 throwDirection = new Vector3(0f, 0f, 0f);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
