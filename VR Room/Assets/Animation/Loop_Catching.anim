@@ -73948,14 +73948,14 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 1.6666666
+  - time: 1.6
     functionName: catchBall
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 5.0333333
+  - time: 4.5333333
     functionName: moveBallToFirst
     data: 
     objectReferenceParameter: {fileID: 0}
