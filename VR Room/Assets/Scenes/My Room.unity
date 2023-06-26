@@ -5068,9 +5068,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ballPrefab: {fileID: 2008515138}
   throwPosition: {fileID: 839842541}
-  throwForce: 1.06
+  throwForce: 1.04
   rb: {fileID: 0}
-  throwDirection: {x: -185, y: 95, z: 0}
+  throwDirection: {x: -185, y: 99, z: 0}
 --- !u!1001 &1993252140
 PrefabInstance:
   m_ObjectHideFlags: 0
