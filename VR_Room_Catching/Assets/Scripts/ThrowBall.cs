@@ -22,8 +22,8 @@ public class ThrowBall : MonoBehaviour
     void Start()
     {
         
-        rightHand = GameObject.Find("mixamorig:RightHand").transform;
-        ballPrefab.transform.position = GameObject.Find("mixamorig:RightHandIndex1").transform.position;
+        rightHand = GameObject.Find("mixamorig:RightHand11").transform;
+        ballPrefab.transform.position = GameObject.Find("mixamorig:RightHandIndex11").transform.position;
         ballPrefab.GetComponent<Transform>().parent = rightHand.parent;
         ballPrefab.GetComponent<Rigidbody>().useGravity = false;
     }
@@ -52,15 +52,15 @@ public class ThrowBall : MonoBehaviour
     void catchBall()
     {
         Debug.Log("Catch the ball");
-        rightHand = GameObject.Find("mixamorig:RightHandIndex1").transform;
+        rightHand = GameObject.Find("mixamorig:RightHandIndex11").transform;
         ballPrefab.GetComponent<Rigidbody>().useGravity = false;
         ballPrefab.GetComponent<Transform>().parent = rightHand.parent;  
     }
 
     void moveBallToFirst()
     {
-        rightHand = GameObject.Find("mixamorig:RightHandThumb1").transform;
-        ballPrefab.transform.position = GameObject.Find("mixamorig:RightHandIndex1").transform.position - aVector;
+        rightHand = GameObject.Find("mixamorig:RightHandThumb11").transform;
+        ballPrefab.transform.position = GameObject.Find("mixamorig:RightHandIndex11").transform.position - aVector;
         ballPrefab.GetComponent<Transform>().parent = rightHand.parent;
         ballPrefab.GetComponent<Rigidbody>().useGravity = false;
     }
