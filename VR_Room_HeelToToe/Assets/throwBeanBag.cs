@@ -28,5 +28,13 @@ public class throwBeanBag : MonoBehaviour
         rb.velocity = (beanBag.transform.forward * -throwForce);
 
     }
+
+    void comeBack()
+    {
+        beanBag.GetComponent<Transform>().position = rightHand.position;
+        rightHand = GameObject.Find("mixamorig:RightHand").transform;
+        beanBag.GetComponent<Transform>().parent = rightHand.parent;
+        beanBag.GetComponent<Rigidbody>().useGravity = false;
+    }
    
 }
