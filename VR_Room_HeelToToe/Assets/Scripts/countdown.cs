@@ -12,6 +12,7 @@ public class countdown : MonoBehaviour
 
     void Start()
     {
+       // invoke("Update", 5); //5 sec delay
         showTime = true;
     }
     // Update is called once per frame

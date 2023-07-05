@@ -6,14 +6,20 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
+    path: Assets/Welcome Scene -  A&C2 - Throwing Beanbag - Age Band 1.unity
+    guid: fce9df84b372d18438fd9379c227d52c
+  - enabled: 0
     path: Assets/VR_Room A&C2 - Throwing Beanbag - Age Band 1.unity
     guid: 6ecdb994d9fa66340ba5a53bf376cf3e
   - enabled: 0
-    path: Assets/Welcome Scene -  A&C2 - Throwing Beanbag - Age Band 1.unity
-    guid: fce9df84b372d18438fd9379c227d52c
-  - enabled: 1
     path: Assets/VR_Room Balance 1 (Static) - One Leg Balance - Age Band 1 (R).unity
     guid: 68352954ea269114a979b74a936c8c63
+  - enabled: 0
+    path: Assets/VR_Room Balance 1 (Static) - One Board Balance - Age Band 2 (L).unity
+    guid: 4a4091a98c451c04ca0d129148bf6bbf
+  - enabled: 1
+    path: Assets/VR_Room Balance 3 (Dynamic) - Jumping on Mats - Age Band 1.unity
+    guid: a87e3b73003862646b40b04dec59b61f
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: ed72be55522c8448bae8b0d66fa21adf,
       type: 2}
