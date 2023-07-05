@@ -15,7 +15,7 @@ public class TimerStop : MonoBehaviour
     {
         animator = GetComponent<Animator>();
         startTime = 0f;
-        endTime = 20f;
+        endTime = 22f;
     }
 
     // Update is called once per frame
