@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Throwing (1)
+  m_Name: This One
   serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
@@ -84346,8 +84346,13 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
+<<<<<<< HEAD:VR_Room_HeelToToe/Assets/Mixamo/Throwing (1).anim
   - time: 3.7
     functionName: moveBallToFirst
+=======
+  - time: 3.0666666
+    functionName: comeBack
+>>>>>>> 50d911942af0ea6b8050058e2715c13d6c886b97:VR_Room_HeelToToe/Assets/Mixamo/This One.anim
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
