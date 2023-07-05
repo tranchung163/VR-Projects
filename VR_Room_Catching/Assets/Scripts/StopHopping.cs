@@ -6,7 +6,7 @@ public class StopHopping : MonoBehaviour
 
     float startTime;
     float endTime;
-    Vector3 firstPosition = new Vector3(1.4f, 0.3f, -0.06f);
+    Vector3 firstPosition = new Vector3(1.4f, 0f, -0.06f);
     Vector3 diffPos = new Vector3(0f, 0f, 0.002f);
 
 
@@ -14,7 +14,7 @@ public class StopHopping : MonoBehaviour
     private void Start()
     {
         startTime = 0f;
-        endTime = 8.5f;
+        endTime = 10.2f;
     }
 
     // Update is called once per frame
