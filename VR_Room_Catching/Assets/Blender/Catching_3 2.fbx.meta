@@ -1,9 +1,5 @@
 fileFormatVersion: 2
-<<<<<<<< HEAD:VR_Room_Catching/Assets/Blender/Catching8.fbx.meta
-guid: 7596a351aef5468439574401886b2ee7
-========
 guid: ad45de7769d4f4c36a5ab4e4c0f821f2
->>>>>>>> parent of a057fcd (resolving merge conflict):VR_Room_Catching/Assets/Blender/Catching_3 2.fbx.meta
 ModelImporter:
   serializedVersion: 21202
   internalIDToNameTable:
@@ -44,11 +40,7 @@ ModelImporter:
       takeName: Armature|Armature|mixamo.com|Layer0
       internalID: 0
       firstFrame: 0
-<<<<<<<< HEAD:VR_Room_Catching/Assets/Blender/Catching8.fbx.meta
-      lastFrame: 142
-========
       lastFrame: 156
->>>>>>>> parent of a057fcd (resolving merge conflict):VR_Room_Catching/Assets/Blender/Catching_3 2.fbx.meta
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
