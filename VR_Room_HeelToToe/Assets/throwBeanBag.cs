@@ -54,13 +54,4 @@ public class throwBeanBag : MonoBehaviour
     }
 
 
-
-   
-        //beanBag.GetComponent<Transform>().position = rightHand.position;
-        //rightHand = GameObject.Find("mixamorig:RightHand").transform;
-        //beanBag.GetComponent<Transform>().parent = rightHand.parent;
-        //beanBag.GetComponent<Rigidbody>().useGravity = false;
-    
-   
-//50d911942af0ea6b8050058e2715c13d6c886b97
 }

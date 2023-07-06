@@ -59,7 +59,7 @@ public class ThrowBall : MonoBehaviour
 
     void moveBallToFirst()
     {
-        rightHand = GameObject.Find("mixamorig:RightHandIndex11").transform;
+        rightHand = GameObject.Find("mixamorig:RightHandThumb11").transform;
         ballPrefab.transform.position = GameObject.Find("mixamorig:RightHandIndex11").transform.position - aVector;
         ballPrefab.GetComponent<Transform>().parent = rightHand.parent;
         ballPrefab.GetComponent<Rigidbody>().useGravity = false;
