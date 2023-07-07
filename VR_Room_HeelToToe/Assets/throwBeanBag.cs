@@ -48,14 +48,17 @@ public class throwBeanBag : MonoBehaviour
         beanBag.GetComponent<Rigidbody>().velocity = Vector3.zero;
         beanBag.GetComponent<Rigidbody>().angularVelocity = Vector3.zero;
 
-        rightHand = GameObject.Find("mixamorig:RightHandRing3").transform;
+        rightHand = GameObject.Find("mixamorig:RightHandRing3").transform; //try righthand
         beanBag.transform.position = GameObject.Find("mixamorig:RightHandRing3").transform.position; //- newVector?
         beanBag.GetComponent<Transform>().parent = rightHand.parent;
         beanBag.GetComponent<Rigidbody>().useGravity = false;
         transform.position = rightHand.position;
         beanBag.GetComponent<Transform>().position = rightHand.position;
 
-
+        rb = beanBag.GetComponent<Rigidbody>();
+        beanBag.GetComponent<Rigidbody>().freezeRotation = true;
+        Quaternion newRotation = Quaternion.Euler(xRotation, 0f, 0f);
+        beanBag.GetComponent<Rigidbody>().rotation = newRotation;
 
         //float step = moveSpeed * Time.deltaTime;
         //transform.position = Vector3.MoveTowards(transform.position, GameObject.Find("mixamorig:RightHand").transform.position, step);
