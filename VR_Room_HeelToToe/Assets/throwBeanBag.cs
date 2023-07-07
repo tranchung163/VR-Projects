@@ -21,7 +21,7 @@ public class throwBeanBag : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        originalPosition = beanBag.GetComponent<Rigidbody>().position;
+        originalPosition = beanBag.transform.position;
         rightHand = GameObject.Find("mixamorig:RightHand").transform;
 
         beanBag.GetComponent<Transform>().parent = rightHand.parent;
@@ -36,6 +36,7 @@ public class throwBeanBag : MonoBehaviour
     {
         Debug.Log("Release the bean bag");
         beanBag.GetComponent<Transform>().parent = null;
+        //beanBag.transform.parent = null; 
         rb = beanBag.GetComponent<Rigidbody>();
         rb.useGravity = true;
         rb.velocity = (beanBag.transform.forward * -throwForce);
@@ -44,7 +45,8 @@ public class throwBeanBag : MonoBehaviour
 
     void moveBallToFirst()
     {
-        beanBag.GetComponent<Rigidbody>().position = originalPosition;
+        beanBag.transform.position = originalPosition;
+        //beanBag.GetComponent<Rigidbody>().position = originalPosition; //rigidbody compoenent is center of mass!
         beanBag.GetComponent<Rigidbody>().velocity = Vector3.zero;
         beanBag.GetComponent<Rigidbody>().angularVelocity = Vector3.zero;
 
