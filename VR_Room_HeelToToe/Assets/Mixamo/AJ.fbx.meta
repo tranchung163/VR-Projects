@@ -1,29 +1,32 @@
 fileFormatVersion: 2
-guid: cc8c245149ff49b4686a120912bcdc6a
+guid: 54181fac6deb24069a894fe4d3304b22
 ModelImporter:
-  serializedVersion: 22200
-  internalIDToNameTable: []
+  serializedVersion: 21202
+  internalIDToNameTable:
+  - first:
+      74: -203655887218126122
+    second: mixamo.com
   externalObjects:
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Boy01_FacialAnimMap
-    second: {fileID: 2800000, guid: aa0f45e0cf95b614cade08180675cc8c, type: 3}
+    second: {fileID: 2800000, guid: 7d1db85ff555a42be8e57cd2439fe4b5, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Boy01_diffuse
-    second: {fileID: 2800000, guid: f6a43cdb5321470488d55b214d8938a6, type: 3}
+    second: {fileID: 2800000, guid: a38477071c1a8463d9a01034eb7707df, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Boy01_normal
-    second: {fileID: 2800000, guid: 3c37f2e5a2ecefe4a862ba3ef793520c, type: 3}
+    second: {fileID: 2800000, guid: a47e00d648d8f4654a4ad16a1279c753, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Boy01_spec
-    second: {fileID: 2800000, guid: 6fffbaabf8d58484bb10f81ecd452803, type: 3}
+    second: {fileID: 2800000, guid: 635a1abb2a31547f98d4b412a01c0acd, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -34,7 +37,7 @@ ModelImporter:
     bakeSimulation: 0
     resampleCurves: 1
     optimizeGameObjects: 0
-    removeConstantScaleCurves: 0
+    removeConstantScaleCurves: 1
     motionNodeName: 
     rigImportErrors: 
     rigImportWarnings: 
@@ -44,7 +47,7 @@ ModelImporter:
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
     importConstraints: 0
-    animationCompression: 1
+    animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
@@ -60,7 +63,6 @@ ModelImporter:
     addColliders: 0
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
-    importPhysicalCameras: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
@@ -88,7 +90,6 @@ ModelImporter:
     secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
-    strictVertexDataChecks: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -113,16 +114,14 @@ ModelImporter:
     globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
-    hasExtraRoot: 0
+    hasExtraRoot: 1
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   autoGenerateAvatarMappingIfUnspecified: 1
-  animationType: 2
+  animationType: 3
   humanoidOversampling: 1
-  avatarSetup: 0
+  avatarSetup: 1
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
-  importBlendShapeDeformPercent: 1
-  remapMaterialsIfMaterialImportModeIsNone: 0
   additionalBone: 0
   userData: 
   assetBundleName: 
