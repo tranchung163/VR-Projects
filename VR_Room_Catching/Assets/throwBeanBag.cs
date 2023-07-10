@@ -11,14 +11,14 @@ public class throwBeanBag : MonoBehaviour
     public Rigidbody rb;
     public float moveSpeed;
 
-    public float xRotation = -130f;
+    public float xRotation = 0f;
 
     private Vector3 originalPosition;
     private Vector3 forwardVector;
 
     private Vector3 aVector = new Vector3(0f, -0.03f, 0.04f);
     private Vector3 firstPosition = new Vector3(-1.97f, 0.681f, -0.133f);
-    public Vector3 throwForward = new Vector3(100f, 10f, 10f);
+    public Vector3 throwForward = new Vector3(0f, 0f, 10f);
     //private Transform rightHand;
 
     // Start is called before the first frame update
@@ -38,7 +38,7 @@ public class throwBeanBag : MonoBehaviour
         Quaternion newRotation = Quaternion.Euler(xRotation, 0f, 0f);
         beanBag.GetComponent<Rigidbody>().rotation = newRotation;
 
-        //beanBag.transform.forward = throwForward;
+        beanBag.transform.forward = throwForward;
     }
 
     void ReleaseBeanBag()
@@ -51,11 +51,11 @@ public class throwBeanBag : MonoBehaviour
         beanBag.transform.parent = null;
         rb = beanBag.GetComponent<Rigidbody>();
         rb.useGravity = true;
-        rb.velocity = (beanBag.transform.forward * -throwForce); //throwForward
+        //rb.velocity = (beanBag.transform.forward * -throwForce); //throwForward
 
         //beanBag.transform.position += forwardVector * (throwForce * Time.deltaTime);
 
-        //beanBag.GetComponent<Rigidbody>().AddForce(throwForward * throwForce, ForceMode.Impulse);
+        beanBag.GetComponent<Rigidbody>().AddForce(throwForward * throwForce, ForceMode.Impulse);
 
         //Vector3 throwForceVector = throwForward * throwForce;
         //rb.AddForce(throwForceVector, ForceMode.Impulse);
