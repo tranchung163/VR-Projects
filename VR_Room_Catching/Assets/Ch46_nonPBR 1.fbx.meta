@@ -1,0 +1,134 @@
+fileFormatVersion: 2
+guid: b058ffc7199895b4991cf5157765d272
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips:
+  - 44e7786cf0c57b94bb75c4469e4ea942
+  - 2929313689fef7e438c76e6eb7218218
+  - 1747d22d3db1f66458016a4f8ccd2172
+  - e2810afd83c867f4e9403ee1d8424399
+  - bc72a430511166249a60c1c4479f27eb
+  - 0b954c13d4462cd4f9107a7ce5e7d38e
+  - e536ae6c52c088b45aaf124460137641
+  - 0e1294232250e5444adb0af5a0bca20f
+  - 9f2918e4fd8a4be4487f953ad17a9994
+  - 28f9c1b9bf13ebb44873837761b30cde
+  - d112abb3e19e6464aa787bd98be7d29f
+  - 2b0af50d25e341d40a60b819e6516c1e
+  - 8285c0ec414788842bd656d1d6216118
+  - 30f74fc0608515d44968e621f69e43bb
+  - dc2ab205f72efd24f954f9a8ec591165
+  - 019ca027db7da6c40ad30e21e6975700
+  - 68528bf33506fde4aadebb30f1975140
+  - 927ef0fb69de7a2469550fc190ab558a
+  - 2263ffe97c7b40e41ab7e59d3a214da5
+  - da678f1d41aee4b4eabdd3811c9e82c0
+  - 1cfa085279b87f64e99f053955580e58
+  - 84b25cb5cf4ed1b49baa3552273bd5d7
+  - 0d413ceadf4637e488b55915e728e03d
+  - f7b5feba8d1f41f4a959f254434e0333
+  - 8e78e7c4cd5a86648a1d254b32e927d8
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
