@@ -18,7 +18,7 @@ public class throwBeanBag : MonoBehaviour
 
     private Vector3 aVector = new Vector3(0f, -0.03f, 0.04f);
     private Vector3 firstPosition = new Vector3(-1.97f, 0.681f, -0.133f);
-    public Vector3 throwForward = new Vector3(100f, 0f, 0f);
+    public Vector3 throwForward = new Vector3(100f, 10f, 10f);
     //private Transform rightHand;
 
     // Start is called before the first frame update
@@ -50,14 +50,16 @@ public class throwBeanBag : MonoBehaviour
         beanBag.GetComponent<Transform>().parent = null;
         beanBag.transform.parent = null;
         rb = beanBag.GetComponent<Rigidbody>();
-       
-        rb.velocity = (throwForward * -throwForce); //throwForward
+        rb.useGravity = true;
+        rb.velocity = (beanBag.transform.forward * -throwForce); //throwForward
 
         //beanBag.transform.position += forwardVector * (throwForce * Time.deltaTime);
 
         //beanBag.GetComponent<Rigidbody>().AddForce(throwForward * throwForce, ForceMode.Impulse);
-        rb.useGravity = true;
 
+        //Vector3 throwForceVector = throwForward * throwForce;
+        //rb.AddForce(throwForceVector, ForceMode.Impulse);
+        //rb.AddForce(throwForceVector, ForceMode.VelocityChange);
 
     }
 
