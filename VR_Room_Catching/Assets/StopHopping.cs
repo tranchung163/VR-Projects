@@ -75,7 +75,7 @@ using UnityEngine;
 
 public class AnimationLooper : MonoBehaviour
 {
-    
+    private const float V = 17.199f;
     public Animator animator;
     public GameObject walker;
     public float stopDuration = 3f;
