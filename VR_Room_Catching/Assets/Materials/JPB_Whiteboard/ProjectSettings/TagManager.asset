@@ -4,10 +4,6 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Plane
-  - Target
-  - mat
-  - aj tARGET
   - Whiteboard
   layers:
   - Default
