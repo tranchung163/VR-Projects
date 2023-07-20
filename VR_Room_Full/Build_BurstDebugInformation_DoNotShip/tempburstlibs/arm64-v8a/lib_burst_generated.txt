@@ -1,4 +1,4 @@
-Library: /Users/chungtran/Documents/GitHub/VR-Projects/VR_Room_Catching/Temp/BurstOutput/tempburstlibs/arm64-v8a/lib_burst_generated
+Library: /Users/chungtran/Documents/GitHub/VR-Projects/VR_Room_Full/Temp/BurstOutput/tempburstlibs/arm64-v8a/lib_burst_generated
 --platform=Android
 --backend=burst-llvm-14
 --target=ARMV8A_AARCH64
@@ -9,10 +9,10 @@ Library: /Users/chungtran/Documents/GitHub/VR-Projects/VR_Room_Catching/Temp/Bur
 --float-precision=Standard
 --float-mode=Fast
 --generate-link-xml=Temp/burst.link.xml
---temp-folder=/Users/chungtran/Documents/GitHub/VR-Projects/VR_Room_Catching/Temp/Burst
+--temp-folder=/Users/chungtran/Documents/GitHub/VR-Projects/VR_Room_Full/Temp/Burst
 --key-folder=/Applications/Unity/Hub/Editor/2022.3.2f1/PlaybackEngines/AndroidPlayer
---decode-folder=/Users/chungtran/Documents/GitHub/VR-Projects/VR_Room_Catching/Library/Burst
---output=/Users/chungtran/Documents/GitHub/VR-Projects/VR_Room_Catching/Temp/BurstOutput/tempburstlibs/arm64-v8a/lib_burst_generated
+--decode-folder=/Users/chungtran/Documents/GitHub/VR-Projects/VR_Room_Full/Library/Burst
+--output=/Users/chungtran/Documents/GitHub/VR-Projects/VR_Room_Full/Temp/BurstOutput/tempburstlibs/arm64-v8a/lib_burst_generated
 --pdb-search-paths=Temp/ManagedSymbols/
 
 --method=Unity.Jobs.IJobForExtensions+ForJobStruct`1[[UnityEngine.Rendering.Universal.ZBinningJob, Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(UnityEngine.Rendering.Universal.ZBinningJob&, Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)--77fc393cb521ac129b1392d4eb94d29a
@@ -26,10 +26,10 @@ Library: /Users/chungtran/Documents/GitHub/VR-Projects/VR_Room_Catching/Temp/Bur
 --dump=Function
 --float-precision=Standard
 --generate-link-xml=Temp/burst.link.xml
---temp-folder=/Users/chungtran/Documents/GitHub/VR-Projects/VR_Room_Catching/Temp/Burst
+--temp-folder=/Users/chungtran/Documents/GitHub/VR-Projects/VR_Room_Full/Temp/Burst
 --key-folder=/Applications/Unity/Hub/Editor/2022.3.2f1/PlaybackEngines/AndroidPlayer
---decode-folder=/Users/chungtran/Documents/GitHub/VR-Projects/VR_Room_Catching/Library/Burst
---output=/Users/chungtran/Documents/GitHub/VR-Projects/VR_Room_Catching/Temp/BurstOutput/tempburstlibs/arm64-v8a/lib_burst_generated
+--decode-folder=/Users/chungtran/Documents/GitHub/VR-Projects/VR_Room_Full/Library/Burst
+--output=/Users/chungtran/Documents/GitHub/VR-Projects/VR_Room_Full/Temp/BurstOutput/tempburstlibs/arm64-v8a/lib_burst_generated
 --pdb-search-paths=Temp/ManagedSymbols/
 
 --method=Unity.Jobs.IJobExtensions+JobStruct`1[[UnityEngine.XR.Interaction.Toolkit.AffordanceSystem.Jobs.Float4TweenJob, Unity.XR.Interaction.Toolkit, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(UnityEngine.XR.Interaction.Toolkit.AffordanceSystem.Jobs.Float4TweenJob&, Unity.XR.Interaction.Toolkit, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)--34aec427743d7d01c0cb7a219c9fbe32
