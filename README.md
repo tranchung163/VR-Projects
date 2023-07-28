@@ -1,11 +1,16 @@
 # VR-Projects
-# VR-Projects
 Hardware setup: VR Meta Quest headset 2, a computer, and motion controllers.
+
 Software setup: Unity game engine, Visual Studio, Android Android platform, Blender, Meta Quest developer mode, and XR interaction packages.
+
 Animation: The modeling and animation of the VR environment were done using Unity Assess Store, Mixamo, and the Blender 3D modeling software. Original animations from Mixamo were edited by changing bone structures and animation clips in Blender.
+
 Programming and Interaction: The programming of the VR environment including user interface, interactable objects, VR hand-tracking  and avatar animation control was done using the C\# programming language and XR interaction toolkits.
+
 Testing: The testing of the VR environment was done using the Unity playtesting tools and XR device simulator.
-Deployment: The deployment of the VR environment was done using the Android platform in Unity. Tennis balls, boards, pegs, paper, tables, mats, bean bags, pens, and other virtual objects were collected from XR interaction toolkits, along with a user hand-tracking setup. Virtual avatars were implemented from the Mixamo website and Animated by using Blender. We programmed male/female avatars to demonstrate eight movement tasks (aiming, catching, inserting pegs, threading lace, walking, and hopping) in age band 2. 
+
+Deployment: The deployment of the VR environment was done using the Android platform in Unity. Tennis balls, boards, pegs, paper, tables, mats, bean bags, pens, and other virtual objects were collected from XR interaction toolkits, along with a user hand-tracking setup. Virtual avatars were implemented from the Mixamo website and Animated by using Blender. We programmed male/female avatars to demonstrate eight movement tasks (aiming, catching, inserting pegs, threading lace, walking, and hopping) in age band 2.
+
 Scene Set up: All movement tasks and practices were placed in VR_Room for three age bands. (Threading Lace task has been developed)
 
 Tutorial and online Courses: Blender & Unity & VR Videos, and C#
