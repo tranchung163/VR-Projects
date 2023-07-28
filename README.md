@@ -1,7 +1,6 @@
 # VR-Projects
 # VR-Projects
 Hardware setup: VR Meta Quest headset 2, a computer, and motion controllers.
-
 Software setup: Unity game engine, Visual Studio, Android Android platform, Blender, Meta Quest developer mode, and XR interaction packages.
 Animation: The modeling and animation of the VR environment were done using Unity Assess Store, Mixamo, and the Blender 3D modeling software. Original animations from Mixamo were edited by changing bone structures and animation clips in Blender.
 Programming and Interaction: The programming of the VR environment including user interface, interactable objects, VR hand-tracking  and avatar animation control was done using the C\# programming language and XR interaction toolkits.
