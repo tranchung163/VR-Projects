@@ -1,4 +1,7 @@
-# VR-Projects
+# Intro
+In this project, we have created a virtual environment designed for children with Autism Spectrum Disorder (ASD). This environment includes a virtual room, various virtual objects, and virtual agents (avatars) to demonstrate different movements tailored to the needs of children with ASD. The development of this environment was achieved through the utilization of Unity, C#, Blender, and VR development toolkits.
+
+# VR Dev Set up
 Hardware setup: VR Meta Quest headset 2, a computer, and motion controllers.
 
 Software setup: Unity game engine, Visual Studio, Android Android platform, Blender, Meta Quest developer mode, and XR interaction packages.
